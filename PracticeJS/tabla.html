@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <script>
+        function Agregar() {
+            //Comment
+            var controlNombre = document.getElementById("txtNombre");
+            var controlApellido = document.getElementById("txtApellido");
+            var controlEdad = document.getElementById("txtEdad");
+            var tablaRegistros = document.getElementById("tablaRegistros");
+
+            if (TodosLosCamposLlenos(controlNombre, controlApellido.value, controlEdad.value)) {
+                var renglonNuevo = tablaRegistros.insertRow(1);
+                var columnaNombre = renglonNuevo.insertCell(0);
+                var columnaApellido = renglonNuevo.insertCell(1);
+                var columnaEdad = renglonNuevo.insertCell(2);
+                var columnaEditar = renglonNuevo.insertCell(3);//Nueva columna editar
+                var columnaEliminar = renglonNuevo.insertCell(4);//Nueva columna eliminar
+
+
+                columnaNombre.innerHTML = controlNombre.value;
+                columnaApellido.innerHTML = controlApellido.value;
+                columnaEdad.innerHTML = controlEdad.value;
+
+                //Creamos el boton eliminar
+                var btnEliminar = document.createElement("input");
+                btnEliminar.type = "button";
+                btnEliminar.value = "Eliminar";
+                btnEliminar.onclick = function () { EliminarRegistro(this); };
+
+                var btnEditar = document.createElement("input");
+                btnEditar.type = "button";
+                btnEditar.value = "Editar";
+                btnEditar.onclick = function () { EditarRegistro(this); };
+
+                //Agregamos a la columna Eliminar el nuevo boton
+                columnaEliminar.appendChild(btnEliminar);
+                //Agregamos a la columna Editar el nuevo boton
+                columnaEditar.appendChild(btnEditar);
+
+                controlNombre.value = "";
+                controlApellido.value = "";
+                controlEdad.value = "";
+            }
+            else {
+                alert("Favor de llenar todos los campos.");
+            }
+        }
+
+        function TodosLosCamposLlenos(nombre, apellido, edad) {
+            if (nombre == "" || apellido == "" || edad == "")
+                return false;
+
+            return true;
+        }
+
+        function EliminarRegistro(btnEliminar) {
+            var indice = btnEliminar.parentNode.parentNode.rowIndex;
+            document.getElementById("tablaRegistros").deleteRow(indice);
+        }
+
+        function EditarRegistro(btnEditar) {
+            var renglonActual = btnEditar.parentNode.parentNode;
+
+            document.getElementById("txtNombre").value = renglonActual.cells[0].innerHTML;
+            document.getElementById("txtApellido").value = renglonActual.cells[1].innerHTML;
+            document.getElementById("txtEdad").value = renglonActual.cells[2].innerHTML;
+
+            document.getElementById("hdnIndiceRenglonActual").value = renglonActual.rowIndex;
+        }
+
+        function GuardarCambios() {
+            //Obtener el indice del renglon que queremos actualizar
+            var indiceRenglonActual = document.getElementById("hdnIndiceRenglonActual").value;
+
+            //Verificamos que exista el indice del renglon que queremos editar, si no hay indice mostramos un mensaje
+            if (indiceRenglonActual == "") {
+                alert("No se ha seleccionado un registro para editar");
+                return;
+            }
+
+            //De acuerdo al indice seleccionado, seleccionar el renglon actual que queremos editar
+            var tabla = document.getElementById("tablaRegistros");
+            var renglonActual = tabla.rows[indiceRenglonActual];
+
+            //Poner el valor de txtNombre en la columna 0 del renglon seleccionado
+            renglonActual.cells[0].innerHTML = document.getElementById("txtNombre").value;
+            //Poner el valor de txtApellido en la columna 1 del renglon seleccionado
+            renglonActual.cells[1].innerHTML = document.getElementById("txtApellido").value;
+            //Poner el valor de txtEdad en la columna 2 del renglon seleccionado
+            renglonActual.cells[2].innerHTML = document.getElementById("txtEdad").value;
+
+            //Limpiamos cajas de texto
+            document.getElementById("txtNombre").value = "";
+            document.getElementById("txtApellido").value = "";
+            document.getElementById("txtEdad").value = "";
+            
+
+            //Limpiamos control escondido
+            document.getElementById("hdnIndiceRenglonActual").value = "";
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="divDatosEntrada">
+        <input type="text" id="txtNombre" placeholder="Nombre">
+        <input type="text" id="txtApellido" placeholder="Apellido">
+        <input type="number" id="txtEdad" placeholder="Edad" min="0">
+        <input type="button" value="Agregar" onclick="Agregar();">
+        <input type="button" value="Guardar Cambios" onclick="GuardarCambios();">
+        <input type="hidden" id="hdnIndiceRenglonActual">
+    </div>
+    <br>
+    <div id="divTabla">
+        <table id="tablaRegistros" border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

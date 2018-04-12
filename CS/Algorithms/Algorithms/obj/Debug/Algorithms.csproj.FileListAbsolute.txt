@@ -1,0 +1,7 @@
+c:\users\raguilera\Source\repos\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+c:\users\raguilera\Source\repos\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+c:\users\raguilera\Source\repos\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+c:\users\raguilera\Source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+c:\users\raguilera\Source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+c:\users\raguilera\Source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+c:\users\raguilera\Source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
