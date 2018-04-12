@@ -5,3 +5,10 @@ c:\users\raguilera\Source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.cspro
 c:\users\raguilera\Source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
 c:\users\raguilera\Source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.exe
 c:\users\raguilera\Source\repos\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
+C:\Workspaces\Git\TestProjects\CS\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+C:\Workspaces\Git\TestProjects\CS\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+C:\Workspaces\Git\TestProjects\CS\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\Workspaces\Git\TestProjects\CS\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Workspaces\Git\TestProjects\CS\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+C:\Workspaces\Git\TestProjects\CS\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+C:\Workspaces\Git\TestProjects\CS\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
