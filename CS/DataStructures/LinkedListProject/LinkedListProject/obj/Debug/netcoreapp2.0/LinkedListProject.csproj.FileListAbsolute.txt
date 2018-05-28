@@ -1,0 +1,11 @@
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\bin\Debug\netcoreapp2.0\LinkedListProject.deps.json
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\bin\Debug\netcoreapp2.0\LinkedListProject.runtimeconfig.json
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\bin\Debug\netcoreapp2.0\LinkedListProject.runtimeconfig.dev.json
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\bin\Debug\netcoreapp2.0\LinkedListProject.dll
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\bin\Debug\netcoreapp2.0\LinkedListProject.pdb
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\obj\Debug\netcoreapp2.0\LinkedListProject.csprojResolveAssemblyReference.cache
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\obj\Debug\netcoreapp2.0\LinkedListProject.csproj.CoreCompileInputs.cache
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\obj\Debug\netcoreapp2.0\LinkedListProject.AssemblyInfoInputs.cache
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\obj\Debug\netcoreapp2.0\LinkedListProject.AssemblyInfo.cs
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\obj\Debug\netcoreapp2.0\LinkedListProject.dll
+C:\Workspaces\Git\TestProjects\CS\DataStructures\LinkedListProject\LinkedListProject\obj\Debug\netcoreapp2.0\LinkedListProject.pdb
