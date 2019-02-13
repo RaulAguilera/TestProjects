@@ -1,0 +1,11 @@
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\bin\Debug\netcoreapp2.1\GetMessages.deps.json
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\bin\Debug\netcoreapp2.1\GetMessages.runtimeconfig.json
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\bin\Debug\netcoreapp2.1\GetMessages.runtimeconfig.dev.json
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\bin\Debug\netcoreapp2.1\GetMessages.dll
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\bin\Debug\netcoreapp2.1\GetMessages.pdb
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\obj\Debug\netcoreapp2.1\GetMessages.csprojAssemblyReference.cache
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\obj\Debug\netcoreapp2.1\GetMessages.csproj.CoreCompileInputs.cache
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\obj\Debug\netcoreapp2.1\GetMessages.AssemblyInfoInputs.cache
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\obj\Debug\netcoreapp2.1\GetMessages.AssemblyInfo.cs
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\obj\Debug\netcoreapp2.1\GetMessages.dll
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\MicrosoftGraph\GetMessages\GetMessages\obj\Debug\netcoreapp2.1\GetMessages.pdb
