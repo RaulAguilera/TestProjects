@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link rel="stylesheet" href="styles/main.css" >
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    This is an awesome app!
+    <div>
+        <img src="images/entangles.jpg">
+        <img src="images/quantumentanglement.jpg">
+    </div>
+    <div>
+        <input type="button" id="btnAdd" value="Add" style="display:none">
+    </div>
+    <script>
+        let deferredPrompt;
+
+        if('serviceWorker' in navigator)
+        {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js').then( reg => {
+                    console.log('Registered 😀',reg);
+                }).catch(err => {
+                    console.log('Registration failed: ', err);
+                });
+            });
+
+        }
+
+        window.addEventListener('appinstalled', (evt) => {
+            app.logEvent('a2hs', 'installed');
+        });
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            btnAdd.style.display = 'block';
+        });
+
+        btnAdd.addEventListener('click', (e) => {
+
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then((choiceResult) => {
+                if(choiceResult.outcome === 'accepted')
+                {
+                    console.log('User accepted the A2HS prompt');
+                }
+
+                deferredPrompt = null;
+            });
+        });
+    </script>
+</body>
+</html>
