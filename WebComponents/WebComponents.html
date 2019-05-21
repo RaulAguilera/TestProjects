@@ -3,6 +3,16 @@
 
     </head>
     <body>
+
+        <app-drawer></app-drawer>
         
+    <script>
+        class AppDrawer extends HTMLElement {
+                connectedCallback() {
+                    this.innerHTML = "<b>I'm a custom element</b>";
+                }
+            }
+            window.customElements.define('app-drawer', AppDrawer);
+    </script> 
     </body>
 </html>
