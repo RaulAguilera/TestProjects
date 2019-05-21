@@ -1,0 +1,59 @@
+<html>
+
+<head></head>
+
+<body onload="Template1()">
+    <template id="template1">
+        <p>I'm coming from a template</p>
+    </template>
+    <template id="template2">
+        <p>This <span class="adjective"></span> template has been copied <span class="number-of-copies"></span> times.</p>
+    </template>
+
+    <input type="button" value="Copy template" onclick="Template2();">
+
+    <pluralsight-comment></pluralsight-comment>
+
+    <script>
+
+        var numberOfCopies = 0;
+
+        function Template1() {
+
+            var template = document.querySelector('#template1');
+            var clone = document.importNode(template.content, true);
+            document.body.appendChild(clone);
+        }
+
+        function Template2() {
+
+            var template = document.querySelector('#template2');
+            var clone = document.importNode(template.content, true);
+
+            numberOfCopies++;
+            
+            clone.querySelector('.adjective').textContent = "awesome";
+            clone.querySelector('.number-of-copies').textContent = numberOfCopies;
+
+            document.body.appendChild(clone);
+
+        }
+
+        var PluralsightCommentProto = Object.create(HTMLElement.prototype);
+
+        PluralsightCommentProto.createdCallback = function() {
+
+            this.innerHTML = "<h2>Pluralsight comment</h2><textarea></textarea><br/><input type='submit'/>"
+
+        }
+
+
+        var PluralsightComment = document.registerElement('pluralsight-comment',{
+            prototype: PluralsightCommentProto
+        });
+
+    </script>
+
+</body>
+
+</html>
