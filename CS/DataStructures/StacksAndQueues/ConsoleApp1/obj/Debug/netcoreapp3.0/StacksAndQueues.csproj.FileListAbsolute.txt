@@ -1,0 +1,12 @@
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\bin\Debug\netcoreapp3.0\StacksAndQueues.exe
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\bin\Debug\netcoreapp3.0\StacksAndQueues.deps.json
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\bin\Debug\netcoreapp3.0\StacksAndQueues.runtimeconfig.json
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\bin\Debug\netcoreapp3.0\StacksAndQueues.runtimeconfig.dev.json
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\bin\Debug\netcoreapp3.0\StacksAndQueues.dll
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\bin\Debug\netcoreapp3.0\StacksAndQueues.pdb
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\obj\Debug\netcoreapp3.0\StacksAndQueues.csprojAssemblyReference.cache
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\obj\Debug\netcoreapp3.0\StacksAndQueues.csproj.CoreCompileInputs.cache
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\obj\Debug\netcoreapp3.0\StacksAndQueues.AssemblyInfoInputs.cache
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\obj\Debug\netcoreapp3.0\StacksAndQueues.AssemblyInfo.cs
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\obj\Debug\netcoreapp3.0\StacksAndQueues.dll
+C:\Users\raguilera\Desktop\gitrepos\TestProjects\CS\DataStructures\StacksAndQueues\ConsoleApp1\obj\Debug\netcoreapp3.0\StacksAndQueues.pdb
