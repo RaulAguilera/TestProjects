@@ -6,8 +6,8 @@ namespace StacksAndQueues
 {
     public class CustomStack
     {
-        public int[] Stack { get; set; }
-        private int Top { get; set; } = -1;
+        private int[] Stack;
+        private int Top = -1;
 
         public CustomStack(int size) {
             Stack = new int[size];
